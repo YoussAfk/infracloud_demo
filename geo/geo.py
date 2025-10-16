@@ -1,6 +1,5 @@
 ### VERY SHORT EXAMPLE SCRIPT
-#pip install geopy
-#pip install folium
+
 from geopy.geocoders import Nominatim
 import folium
 
