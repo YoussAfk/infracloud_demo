@@ -1,0 +1,5 @@
+import os
+env_var = os.environ
+print("===============")
+print("PATH User's Environment:")
+print(env_var['PATH'])

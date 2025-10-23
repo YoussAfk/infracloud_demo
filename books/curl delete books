@@ -1,0 +1,9 @@
+#!/bin/bash
+APIKEY="cisco|G2CDcdZdZK-xq2x3i9Z3D09su5UuH3hI2b_UOF_ZzHQ"
+BOOK=900 
+DELETE_URL="http://library.demo.local/api/v1/books/$B00K"
+echo $DELETE URL
+curl -X DELETE $DELETE_URL \
+-H "accept: application/json" \
+-H "X-API-KEY:$APIKEY" \
+-H "Content Type: application/json"
